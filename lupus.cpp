@@ -4,7 +4,7 @@
 using namespace std;
 
 void gameLoop();
-void roleAssigments();
+void roleAssigments(unordered_map<string, Player> Alive);
 
 class Player {
 public:
@@ -19,7 +19,9 @@ unordered_map<string, Player> Dead;
 
 class Lupo : public Player {
 public:
-    Lupo(string name)
+    Lupo(string nameV, string roleV, bool aliveV, bool protectedV) {
+	name = nameV; role = roleV; alive = aliveV; protected = protectedV;
+	}
     bool action(Player &obj) {
 	if (obj.role == "lupo" || !obj.alive){
 		return false;
@@ -38,6 +40,9 @@ public:
 
 class Becchino : public Player {
 public:
+    Becchino(string nameV, string roleV, bool aliveV, bool protectedV) {
+	name = nameV; role = roleV; alive = aliveV; protected = protectedV;
+	}
     bool action(Player &obj) {
     	if (!obj.alive) {
 	    	string role = obj.role;
@@ -50,6 +55,9 @@ public:
 
 class Veggente : public Player {
 public:
+    Veggente(string nameV, string roleV, bool aliveV, bool protectedV) {
+	name = nameV; role = roleV; alive = aliveV; protected = protectedV;
+	}
     bool action(Player &obj) {
 	    if (obj.alive) {
 	    	string role = obj.role;
@@ -62,6 +70,9 @@ public:
 
 class Protettore : public Player {
 public:
+    Protettore(string nameV, string roleV, bool aliveV, bool protectedV) {
+	name = nameV; role = roleV; alive = aliveV; protected = protectedV;
+	}
     bool action(Player &obj) {
 	    if (obj.alive) {
 	    	obj.protected = true;
@@ -76,6 +87,9 @@ public:
 class Cacciatore : public Player {
 public:
     bool ammo = true;
+    Protettore(string nameV, string roleV, bool aliveV, bool protectedV) {
+	name = nameV; role = roleV; alive = aliveV; protected = protectedV;
+	}
     bool action(Player &obj) {
 	    if (!obj.alive) {
 		    // scrivere che non e' possibile uccidere un morto
