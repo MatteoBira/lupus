@@ -1,6 +1,8 @@
 #include <iostream>
 #include <unordered_map>
 #include <string>
+#include <ctime>
+#include <cstdlib>
 using namespace std;
 
 void gameLoop();
@@ -117,7 +119,10 @@ void gameLoop() {
 }
 
 void roleAssigments() {
-
+	int lupi,villager,cacciatore,protettore,veggente,becchino;
+	lupi = villager = cacciatore = protettore = veggente = becchino = 0;
+	
+	
 }
 
-// classes constructor; roleAssigment
+// roleAssigment
