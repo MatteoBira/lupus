@@ -6,7 +6,8 @@
 using namespace std;
 
 void gameLoop();
-void roleAssigments(unordered_map<string, Player> Alive);
+void fillLobby(vector<string> lob);
+void roleAssigments(unordered_map<string, Player> players);
 
 class Player {
 public:
@@ -16,6 +17,7 @@ public:
     bool protected;
 };
 
+vector<string> lobby;
 unordered_map<string, Player> Alive;
 unordered_map<string, Player> Dead;
 
@@ -102,7 +104,6 @@ public:
 	        Dead[obj.name] = obj;
 	        auto it = Alive.find(obj.name);
 		Alive.erase(it);
-
 	    } 
 	    return true;
     }
@@ -118,11 +119,24 @@ void gameLoop() {
 
 }
 
-void roleAssigments() {
-	int lupi,villager,cacciatore,protettore,veggente,becchino;
-	lupi = villager = cacciatore = protettore = veggente = becchino = 0;
+void roleAssigments(unordered_map<string, Player> players) {
+    srand(static_cast<unsigned int>(std::time(nullptr)));
+    int lupi,villager,cacciatore,protettore,veggente,becchino,choice;
+    lupi = villager = cacciatore = protettore = veggente = becchino = 0;
+
+    choice = rand()%6+1;
+    switch (choice) {
+	case 1:
+	    if (lupi > 1){
+		break;
+	    }
+	    
 	
-	
+    	default:
+    
+    		break;
+    }
+    
 }
 
 // roleAssigment
