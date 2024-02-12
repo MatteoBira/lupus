@@ -1,0 +1,414 @@
+this is my history:
+
+    1  2024-02-04 15:41:56 ls
+    2  2024-02-04 15:41:56 ls -l
+    3  2024-02-04 15:41:56 cd ..
+    4  2024-02-04 15:41:56 ls
+    5  2024-02-04 15:41:56 cd ..
+    6  2024-02-04 15:41:56 ls
+    7  2024-02-04 15:41:56 cd
+    8  2024-02-04 15:41:56 ls
+    9  2024-02-04 15:41:56 mkdir pr
+   10  2024-02-04 15:41:56 vim
+   11  2024-02-04 15:41:56 clear
+   12  2024-02-04 15:41:56 sudo apt-get install sl
+   13  2024-02-04 15:41:56 su
+   14  2024-02-04 15:41:56 sudo
+   15  2024-02-04 15:41:56 sudo apt-get install sl
+   16  2024-02-04 15:41:56 sl
+   17  2024-02-04 15:41:56 ./sl
+   18  2024-02-04 15:41:56 sl
+   19  2024-02-04 15:41:56 clear
+   20  2024-02-04 15:41:56 sl
+   21  2024-02-04 15:41:56 ls
+   22  2024-02-04 15:41:56 ..
+   23  2024-02-04 15:41:56 cd ..
+   24  2024-02-04 15:41:56 sl
+   25  2024-02-04 15:41:56 sl --version
+   26  2024-02-04 15:41:56 sudo apt-get install sl
+   27  2024-02-04 15:41:56 sl
+   28  2024-02-04 15:41:56 clear
+   29  2024-02-04 15:41:56 sudo apt install curl
+   30  2024-02-04 15:41:56 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+   31  2024-02-04 15:41:56 echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+   32  2024-02-04 15:41:56 sudo apt update
+   33  2024-02-04 15:41:56 sudo apt install brave-browser
+   34  2024-02-04 15:41:56 ps
+   35  2024-02-04 15:41:56 pwd
+   36  2024-02-04 15:41:56 clear
+   37  2024-02-04 15:41:56 sl
+   38  2024-02-04 15:41:56 brave
+   39  2024-02-04 15:41:56 sl
+   40  2024-02-04 15:41:56 clear
+   41  2024-02-04 15:41:56 sl
+   42  2024-02-04 15:41:56 clear
+   43  2024-02-04 15:41:56 sudo apt update
+   44  2024-02-04 15:41:56 sudo apt install nautilus nautilus-admin nautilus-extension-gnome-terminal
+   45  2024-02-04 15:41:56 unzip ~/Downloads/themes.zip -d ~/
+   46  2024-02-04 15:41:56 ls /home/matteo/Downloads/
+   47  2024-02-04 15:41:56 unzip ~/Downloads/themes.zip -d ~/
+   48  2024-02-04 15:41:56 mv ~/themes/ ~/.themes
+   49  2024-02-04 15:41:56 unzip ~/Downloads/icons.zip -d ~/.local/share/
+   50  2024-02-04 15:41:56 unzip ~/Downloads/start-menu-icon.zip -d ~/.local/share/icons
+   51  2024-02-04 15:41:56 unzip ~/Downloads/cursors.zip -d ~/
+   52  2024-02-04 15:41:56 mv -v ~/cursors ~/.icons
+   53  2024-02-04 15:41:56 unzip ~/Downloads/fonts.zip -d ~/.local/share/
+   54  2024-02-04 15:41:56 sudo unzip ~/Downloads/wallpapers.zip -d /usr/share/backgrounds/
+   55  2024-02-04 15:41:56 unzip ~/Downloads/cinnamon-applet-config.zip -d ~/Downloads/
+   56  2024-02-04 15:41:56 rsync -sv ~/Downloads/cinnamon-applet-config/.cinnamon ~/
+   57  2024-02-04 15:41:56 rsync -sv ~/Downloads/cinnamon-applet-config/.local ~/
+   58  2024-02-04 15:41:56 rm -rf ~/Downloads/cinnamon-applet-config
+   59  2024-02-04 15:41:56 unzip ~/Downloads/cinnamon-config.zip -d ~/Downloads/
+   60  2024-02-04 15:41:56 dconf load /org/cinnamon/ < ~/Downloads/cinnamon-config/cinnamon-catppcn.conf
+   61  2024-02-04 15:41:56 clear
+   62  2024-02-04 15:41:56 ls
+   63  2024-02-04 15:41:56 sudo apt install ./ulauncher_5.15.6_all.deb
+   64  2024-02-04 15:41:56 unzip ~/Downloads/ulauncher-theme.zip -d ~/Downloads/
+   65  2024-02-04 15:41:56 ls
+   66  2024-02-04 15:41:56 unzip ~/Downloads/ulauncher-theme.zip -d ~/Downloads/
+   67  2024-02-04 15:41:56 rsync -av ~/Downloads/ulauncher-theme/.congig ~/
+   68  2024-02-04 15:41:56 rm -rfv ~/Downloads/ulauncher-theme
+   69  2024-02-04 15:41:56 cd ..
+   70  2024-02-04 15:41:56 clear
+   71  2024-02-04 15:41:56 sudo apt install concky-all jq curl moc
+   72  2024-02-04 15:41:56 ls Downloads
+   73  2024-02-04 15:41:56 curl -V
+   74  2024-02-04 15:41:56 sudo apt install concky-all jq curl moc
+   75  2024-02-04 15:41:56 sudo apt update
+   76  2024-02-04 15:41:56 sudo apt install conky-all jq curl moc
+   77  2024-02-04 15:41:56 sudo nano /etc/environment
+   78  2024-02-04 15:41:56 unzip ~/Downloads/conky-config.zip -d ~/Downloads/
+   79  2024-02-04 15:41:56 rsync -av ~/Downloads/conky-config/conky ~/.config
+   80  2024-02-04 15:41:56 rsync -av ~/Downloads/conky-config/autostart ~/.config
+   81  2024-02-04 15:41:56 rm -rf ~/Downloads/conky-config
+   82  2024-02-04 15:41:56 sudo apt update
+   83  2024-02-04 15:41:56 sudo apt install flameshot
+   84  2024-02-04 15:41:56 flameshot
+   85  2024-02-04 15:41:56 Flameshot
+   86  2024-02-04 15:41:56 flameshot
+   87  2024-02-04 15:41:56 sudo apt update
+   88  2024-02-04 15:41:56 sudo apt install shutter
+   89  2024-02-04 15:41:56 [200~﻿
+   90  2024-02-04 15:41:56 sudo apt-get install libgl1-mesa-dev libpulseo libpulse-dev libxext6 libxext-dev libxrender-dev libxcomposite-dev liblua5.3-dev liblua5.3 lua-lgi lua-filesystem libobs0 libobs-dev meson build- essential gcc~
+   91  2024-02-04 15:41:56 sudo apt update
+   92  2024-02-04 15:41:56 sudo apt-get install libgl1-mesa-dev libpulseo libpulse-dev libxext6 libxext-dev libxrender-dev libxcomposite-dev liblua5.3-dev liblua5.3 lua-lgi lua-filesystem libobs0 libobs-dev meson build- essential gcc~
+   93  2024-02-04 15:41:56 sudo apt-get install gcc
+   94  2024-02-04 15:41:56 sudo apt-get install essential
+   95  2024-02-04 15:41:56 sudo apt-get install build
+   96  2024-02-04 15:41:56 sudo ldconfig
+   97  2024-02-04 15:41:56 cd Downloads
+   98  2024-02-04 15:41:56 sudo apt-get install git
+   99  2024-02-04 15:41:56 ﻿
+  100  2024-02-04 15:41:56 git clone https://gitlab.com/wild-turtles-publicly-release/glava/glava.git cd glava
+  101  2024-02-04 15:41:56 meson build --prefix /usr
+  102  2024-02-04 15:41:56 ninja -C build
+  103  2024-02-04 15:41:56 sudo ninja -C build install
+  104  2024-02-04 15:41:56 glava --copy-config
+  105  2024-02-04 15:41:56 unzip ~/Downloads/glava-config.zip -d ~/Downloads/
+  106  2024-02-04 15:41:56 rsync -av ~/Downloads/glava-config/.config ~/
+  107  2024-02-04 15:41:56 rm -rfv ~/Downloads/glava-config
+  108  2024-02-04 15:41:56 sudo apt-get insatll ninja
+  109  2024-02-04 15:41:56 sudo apt-get install ninja
+  110  2024-02-04 15:41:56 sudo apt upgrade
+  111  2024-02-04 15:41:56 sudo apt-get insatll ninja
+  112  2024-02-04 15:41:56 sudo apt upgrade
+  113  2024-02-04 15:41:56 sudo apt-get install ninja
+  114  2024-02-04 15:41:56 cd ..
+  115  2024-02-04 15:41:56 ﻿
+  116  2024-02-04 15:41:56 curl - https://raw.githubusercontent.com/catppuccin/gnome-terminal/v0.2.0/install.py python3 -
+  117  2024-02-04 15:41:56 cd ~/Downloads
+  118  2024-02-04 15:41:56 git clone https://github.com/vinceliuice/WhiteSur-firefox-theme.git
+  119  2024-02-04 15:41:56 cd WhiteSur-firefox-theme
+  120  2024-02-04 15:41:56 ./install.sh -m
+  121  2024-02-04 15:41:56 ls
+  122  2024-02-04 15:41:56 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+  123  2024-02-04 15:41:56 chmod u+x nvim.appimage
+  124  2024-02-04 15:41:56 ./nvim.appimage
+  125  2024-02-04 15:41:56 nvim
+  126  2024-02-04 15:41:56 vim -version
+  127  2024-02-04 15:41:56 ./nvim.appimage
+  128  2024-02-04 15:41:56 ls nvim.appimage
+  129  2024-02-04 15:41:56 ls
+  130  2024-02-04 15:41:56 pwd
+  131  2024-02-04 15:41:56 sudo ln -s ~/nvim.appimage /usr/bin/nvim
+  132  2024-02-04 15:41:56 nvim
+  133  2024-02-04 15:41:56 apt install zsh
+  134  2024-02-04 15:41:56 sudo apt install zsh
+  135  2024-02-04 15:41:56 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  136  2024-02-04 15:41:56 nvim ~/.zshrc
+  137  2024-02-04 15:41:56 source ~/.zshrc
+  138  2024-02-04 15:41:56 zsh
+  139  2024-02-04 15:41:56 nvim .bashrc
+  140  2024-02-04 15:41:56 zsh
+  141  2024-02-04 15:41:56 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+  142  2024-02-04 15:41:56 chsh -s $(which zsh)
+  143  2024-02-04 15:41:56 echo $SHELL
+  144  2024-02-04 15:41:56 sudo nano /etc/passwd
+  145  2024-02-04 15:41:56 sudo nvim /etc/passwd
+  146  2024-02-04 15:41:56 echo $SHELL
+  147  2024-02-04 15:41:56 sudo nvim /etc/passwd
+  148  2024-02-04 15:41:56 sudo apt-get remove zsh
+  149  2024-02-04 15:41:56 sudo apt-get install zsh
+  150  2024-02-04 15:41:56 echo $SHELL
+  151  2024-02-04 15:41:56 sudo nvim /etc/passwd
+  152  2024-02-04 15:41:56 source `/zshrc
+  153  2024-02-04 15:41:56 source ~/.zshrc
+  154  2024-02-04 15:41:56 sudo nvim /etc/passwd
+  155  2024-02-04 15:41:56 zsh
+  156  2024-02-04 15:41:56 grep zsh /etc/shells
+  157  2024-02-04 15:41:56 sudo nvim /etc/passwd
+  158  2024-02-04 15:41:56 cd download
+  159  2024-02-04 15:41:56 cd downloads
+  160  2024-02-04 15:41:56 cd Download
+  161  2024-02-04 15:41:56 cd Downloads
+  162  2024-02-04 15:41:56 ls
+  163  2024-02-04 15:41:56 nvim zsh.txt
+  164  2024-02-04 15:41:56 [200~zsh~
+  165  2024-02-04 15:41:56 zsh
+  166  2024-02-04 15:41:56 chsh -l
+  167  2024-02-04 15:41:56 chsh -R zsh
+  168  2024-02-04 15:41:56 chsh -R /usr/bin/zsh
+  169  2024-02-04 15:41:56 chsh -s /usr/bin/zsh
+  170  2024-02-04 15:41:56 sudo chsh -s /usr/bin/zsh
+  171  2024-02-04 15:41:56 su
+  172  2024-02-04 15:41:56 sudo chsh -s /usr/bin/zsh
+  173  2024-02-04 15:41:56 sudo nvim /etc/pam.d/chsh
+  174  2024-02-04 15:41:56 chsh -s /usr/bin/zsh
+  175  2024-02-04 15:41:56 ls -l /usr/bin/zsh
+  176  2024-02-04 15:41:56 sudo chmod 777 /usr/bin/zsh
+  177  2024-02-04 15:41:56 chsh -s /usr/bin/zsh
+  178  2024-02-04 15:41:56 zsh
+  179  2024-02-04 15:41:56 source ~/.zshrc
+  180  2024-02-04 15:41:56 chsh -s /bin/zsh
+  181  2024-02-04 15:41:56 nvim ~/.bashrc
+  182  2024-02-04 15:41:56 source ~/.bashrc
+  183  2024-02-04 15:41:56 which bash
+  184  2024-02-04 15:41:56 cat /etc/shells
+  185  2024-02-04 15:41:56 sudo apt-get remove zsh
+  186  2024-02-04 15:41:56 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  187  2024-02-04 15:41:56 sudo apt install zsh
+  188  2024-02-04 15:41:56 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  189  2024-02-04 15:41:56 rm -r /home/matteo/.oh-my-zsh
+  190  2024-02-04 15:41:56 sudo rm -r /home/matteo/.oh-my-zsh
+  191  2024-02-04 15:41:56 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  192  2024-02-04 15:41:56 nvim ~/.zshrc
+  193  2024-02-04 15:41:56 clear
+  194  2024-02-04 15:41:56 clear
+  195  2024-02-04 15:41:56 nvim
+  196  2024-02-04 15:41:56 clear
+  197  2024-01-18 20:29:22 nvim ~/.bashrc
+  198  2024-01-18 20:33:07 source ~/.bashrc
+  199  2024-01-18 20:40:22 nvim ~/.bashrc
+  200  2024-01-18 20:43:25 sudo nvim /etc/passwd
+  201  2024-01-18 20:46:17 source /etc/passwd
+  202  2024-01-18 20:46:42 nvim .
+  203  2024-01-18 20:47:23 rm -rf .oh-my-zsh
+  204  2024-01-18 20:47:26 nvim .
+  205  2024-01-18 20:50:10 mv $HOME/.bashrc $HOME/bash_profile
+  206  2024-01-18 20:51:21 mv $HOME/bash_profile $HOME/.bashrc
+  207  2024-01-18 20:52:59 dos2unix ~/.oh-my-bash/**/*
+  208  2024-01-19 18:21:54 nvim
+  209  2024-01-19 18:22:26 source ~/.bashrc
+  210  2024-01-19 18:22:48 nvim ~/.bashrc
+  211  2024-01-19 18:23:19 source ~/.bashrc
+  212  2024-01-19 18:23:28 nvim ~/.bashrc
+  213  2024-01-19 18:24:01 source ~/.bashrc
+  214  2024-01-19 18:25:29 source ~/.bashrc
+  215  2024-01-19 18:29:20 sl
+  216  2024-01-19 18:29:33 source ~/.bashrc
+  217  2024-01-19 18:32:32 nvim ~/.bashrc
+  218  2024-01-19 18:32:47 source ~/.bashrc
+  219  2024-01-19 18:33:09 v .
+  220  2024-01-19 18:38:05 nvim ~/.bashrc
+  221  2024-01-19 18:38:22 source ~/.bashrc
+  222  2024-01-19 18:40:36 v .
+  223  2024-01-19 18:41:35 source ~/.bashrc
+  224  2024-01-19 18:41:44 ls -la
+  225  2024-01-19 18:48:31 nvim ~/.bashrc
+  226  2024-01-19 18:48:40 source ~/.bashrc
+  227  2024-01-19 18:57:02 nvim ~/.bashrc
+  228  2024-01-19 18:57:10 source ~/.bashrc
+  229  2024-01-19 18:57:22 sl
+  230  2024-01-19 18:57:32 ls -a
+  231  2024-01-19 18:57:36 cd ..
+  232  2024-01-19 18:57:40 ls -la
+  233  2024-01-19 18:58:44 mkdir suca
+  234  2024-01-19 18:58:49 cd suca
+  235  2024-01-19 18:58:56 git init
+  236  2024-01-19 18:59:08 cd ..
+  237  2024-01-19 18:59:17 rm ./suca
+  238  2024-01-19 18:59:25 rm -rf ./suca
+  239  2024-01-19 18:59:43 rm -rf alacritty
+  240  2024-01-19 19:00:01 ls Downloads
+  241  2024-01-19 18:48:47 v .
+  242  2024-01-19 19:02:38 v ~/.bashrc
+  243  2024-01-19 19:04:47 source ~/.bashrc
+  244  2024-01-19 19:04:56 v ~/.bashrc
+  245  2024-01-19 19:05:15 source ~/.bashrc
+  246  2024-01-19 19:05:19 v ~/.bashrc
+  247  2024-01-19 19:06:25 git clone git://github.com/wting/autojump.git
+  248  2024-01-19 19:06:52 [200~cd autojump~
+  249  2024-01-19 19:06:55 cd autojump
+  250  2024-01-19 19:07:01 git clone git://github.com/wting/autojump.git
+  251  2024-01-19 19:07:23 python
+  252  2024-01-19 19:07:39 sudo apt update
+  253  2024-01-19 19:07:46 sudo apt install python3
+  254  2024-01-19 19:07:51 git clone git://github.com/wting/autojump.git
+  255  2024-01-19 19:09:30 brew install autojump
+  256  2024-01-19 19:09:54 sudo apt-get install build-essential
+  257  2024-01-19 19:09:59 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  258  2024-01-19 19:11:21 brew install gcc
+  259  2024-01-19 19:11:49 echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"'
+  260  2024-01-19 19:12:06 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+  261  2024-01-19 19:12:21 brew install gcc
+  262  2024-01-19 19:12:28 echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"'
+  263  2024-01-19 19:12:36 (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/matteo/.bashrc
+  264  2024-01-19 19:12:43 brew install gcc
+  265  2024-01-19 19:16:09 brew install autojump
+  266  2024-01-19 20:07:11 cd p
+  267  2024-01-19 20:07:23 cd ..
+  268  2024-01-19 20:07:26 cd D
+  269  2024-01-19 20:07:42 cd Desktop/
+  270  2024-01-19 20:07:45 cd ..
+  271  2024-01-19 20:08:08 nvim ~/.bashrc
+  272  2024-01-19 20:33:27 sl
+  273  2024-01-19 20:33:42 ls -la
+  274  2024-01-19 20:35:10 ls -a
+  275  2024-01-19 20:35:20 gcc --help
+  276  2024-01-19 20:36:26 mkdir
+  277  2024-01-19 20:36:29 mkdir cazzi
+  278  2024-01-19 20:36:36 cd cazzi
+  279  2024-01-19 20:36:42 git init
+  280  2024-01-19 20:36:57 cd ..
+  281  2024-01-19 20:37:05 rm -rf cazzi
+  282  2024-01-20 18:43:54 v -r lupus.cpp
+  283  2024-01-20 18:44:21 mk dir lupus
+  284  2024-01-20 18:44:29 mkdir lupus
+  285  2024-01-20 18:44:51 mv ./lupus.cpp ./lupus/lupus.cpp
+  286  2024-01-20 18:45:21 git init
+  287  2024-01-20 18:47:45 cd ..
+  288  2024-01-20 18:47:50 git clone https://github.com/MatteoBira/lupus.git
+  289  2024-01-20 18:48:03 v .
+  290  2024-01-20 18:48:13 git clone https://github.com/MatteoBira/lupus.git
+  291  2024-01-20 18:48:23 v .
+  292  2024-01-22 19:45:49 v pr
+  293  2024-01-23 16:12:10 git commit -m "class constructor"
+  294  2024-01-23 16:12:30 git commit -m "class constructor"
+  295  2024-01-23 16:14:32 git push origin main
+  296  2024-02-02 16:35:43 cd ..
+  297  2024-02-02 16:35:51 mkdir oli
+  298  2024-02-02 16:35:54 cd oli
+  299  2024-02-02 16:36:12 v disuguaglianza.c
+  300  2024-02-02 16:37:14 git init
+  301  2024-02-02 16:37:41 v disuguaglianza.c
+  302  2024-02-02 16:39:07 v .
+  303  2024-02-02 16:39:33 v disuguaglianza.c
+  304  2024-02-02 17:05:55 gcc -o disu disuguaglianza.c
+  305  2024-02-02 17:06:03 v disuguaglianza.c
+  306  2024-02-02 17:06:43 gcc -o disu disuguaglianza.c
+  307  2024-02-02 17:07:18 v disuguaglianza.c
+  308  2024-02-02 17:07:33 gcc -o disu disuguaglianza.c
+  309  2024-02-02 17:07:39 v disuguaglianza.c
+  310  2024-02-02 17:07:51 gcc -o disu disuguaglianza.c
+  311  2024-02-02 17:08:13 v disuguaglianza.c
+  312  2024-02-02 17:08:54 ./disu 1 < 2 < 3 < 5 < 4
+  313  2024-02-02 17:09:17 ./disu 1 < 2 < 3 < 5 
+  314  2024-02-02 17:09:32 disu 1 < 2 < 3 < 5 
+  315  2024-02-02 17:09:37 v .
+  316  2024-02-02 17:09:58 gcc -o disu disuguaglianza.c
+  317  2024-02-02 17:10:11 v .
+  318  2024-02-02 17:11:02 gcc -o pr prova.c
+  319  2024-02-02 17:11:06 ./pr
+  320  2024-02-02 17:11:27 v disuguaglianza.c
+  321  2024-02-02 17:14:28 v prova.c
+  322  2024-02-02 17:15:25 gcc -o pr prova.c
+  323  2024-02-02 17:15:31 ./pr c
+  324  2024-02-02 17:15:36 ./pr u
+  325  2024-02-02 17:17:02 v disuguaglianza.c
+  326  2024-02-02 17:17:30 gcc -o disu disuguaglianza.c
+  327  2024-02-02 17:17:51 v disuguaglianza.c
+  328  2024-02-02 17:17:59 gcc -o disu disuguaglianza.c
+  329  2024-02-02 17:18:07 ./disu 1 < 2 < 3 < 5 
+  330  2024-02-02 17:18:37 gcc -o ciao disuguaglianza.c
+  331  2024-02-02 17:18:44 ./ciao 1 < 2 < 3 < 5 
+  332  2024-02-02 17:18:51 .\ciao 1 < 2 < 3 < 5 
+  333  2024-02-02 17:19:04 ./pr
+  334  2024-02-02 17:19:11 ./disu
+  335  2024-02-02 17:19:19 ./disu 1
+  336  2024-02-02 17:19:32 ./disu 1 < 3 < 2
+  337  2024-02-02 17:19:43 v disuguaglianza.c\
+  338  2024-02-02 17:19:47 v disuguaglianza.c
+  339  2024-02-02 17:21:41 gcc -o disu disuguaglianza.c
+  340  2024-02-02 17:22:07 ./disu 1 l 2 l 3 l 4 l 5
+  341  2024-02-02 17:22:28 v disuguaglianza.c
+  342  2024-02-02 17:23:42 gcc -o disu disuguaglianza.c
+  343  2024-02-02 17:23:44 ./disu 1 l 2 l 3 l 4 l 5
+  344  2024-02-02 17:23:58 v disuguaglianza.c
+  345  2024-02-02 17:25:05 gcc -o disu disuguaglianza.c
+  346  2024-02-02 17:25:08 ./disu 1 l 2 l 3 l 4 l 5
+  347  2024-02-02 17:25:16 gcc -o disu disuguaglianza.c
+  348  2024-02-02 17:25:18 v disuguaglianza.c
+  349  2024-02-02 17:25:44 gcc -o disu disuguaglianza.c
+  350  2024-02-02 17:25:47 ./disu 1 l 2 l 3 l 4 l 5
+  351  2024-02-02 17:25:51 v disuguaglianza.c
+  352  2024-02-02 17:27:35 gcc -o disu disuguaglianza.c
+  353  2024-02-02 17:27:37 ./disu 1 l 2 l 3 l 4 l 5
+  354  2024-02-02 17:27:48 v disuguaglianza.c
+  355  2024-02-02 17:28:33 gcc -o disu disuguaglianza.c
+  356  2024-02-02 17:28:35 ./disu 1 l 2 l 3 l 4 l 5
+  357  2024-02-02 17:29:30 v disuguaglianza.c
+  358  2024-02-02 18:32:16 cd oli
+  359  2024-02-02 18:36:20 vim disuguaglianza.c 
+  360  2024-02-02 18:36:25 v disuguaglianza.c 
+  361  2024-02-02 18:49:08 gcc -o disu disuguaglianza.c
+  362  2024-02-02 18:49:12 ./disu 1 l 2 l 3 l 4 l 5
+  363  2024-02-02 18:49:41 v disuguaglianza.c
+  364  2024-02-02 18:51:12 gcc -o disu disuguaglianza.c
+  365  2024-02-02 18:51:15 ./disu 1 l 2 l 3 l 4 l 5
+  366  2024-02-02 18:52:11 vim disuguaglianza.c 
+  367  2024-02-02 18:52:15 v disuguaglianza.c
+  368  2024-02-02 18:52:56 gcc -o disu disuguaglianza.c
+  369  2024-02-02 18:52:59 ./disu 1 l 2 l 3 l 4 l 5
+  370  2024-02-02 18:53:36 ./disu 1 r 2 r 3 r 4 r 5
+  371  2024-02-02 18:53:50 v disuguaglianza.c
+  372  2024-02-02 18:57:58 gcc -o disu disuguaglianza.c
+  373  2024-02-02 18:58:05 v disuguaglianza.c
+  374  2024-02-02 18:58:24 gcc -o disu disuguaglianza.c
+  375  2024-02-02 18:58:27 v disuguaglianza.c
+  376  2024-02-02 18:58:38 gcc -o disu disuguaglianza.c
+  377  2024-02-02 18:58:43 ./disu 
+  378  2024-02-02 18:59:55 v disuguaglianza.c
+  379  2024-02-02 19:01:16 gcc -o disu disuguaglianza.c
+  380  2024-02-02 19:01:19 ./disu 
+  381  2024-02-02 19:01:27 v disuguaglianza.c
+  382  2024-02-02 19:02:58 gcc -o disu disuguaglianza.c
+  383  2024-02-02 19:03:00 ./disu 
+  384  2024-02-02 19:13:19 v disuguaglianza.c
+  385  2024-02-02 19:15:35 gcc -o disu disuguaglianza.c
+  386  2024-02-02 19:15:38 ./disu 
+  387  2024-02-02 19:15:44 v disuguaglianza.c
+  388  2024-02-02 19:16:06 gcc -o disu disuguaglianza.c
+  389  2024-02-02 19:16:08 v disuguaglianza.c
+  390  2024-02-02 19:16:16 gcc -o disu disuguaglianza.c
+  391  2024-02-02 19:16:18 ./disu 
+  392  2024-02-02 19:59:36 cd ..
+  393  2024-02-02 19:59:46 lll
+  394  2024-02-02 20:00:01 v lupus.c
+  395  2024-02-02 20:02:31 git rebase origin/main
+  396  2024-02-02 20:04:03 git rebase --continue
+  397  2024-02-02 20:04:17 git push origin main
+  398  2024-02-02 20:14:02 git pull origin main
+  399  2024-02-02 20:14:17 vim .
+  400  2024-02-02 20:14:20 v .
+  401  2024-02-02 20:16:29 flameshot gui
+  402  2024-02-03 17:52:36 cd oli
+  403  2024-02-03 18:35:28 v footing.c
+  404  2024-02-03 18:46:44 v footing.cpp
+  405  2024-02-04 15:43:17 cd pr
+  406  2024-02-04 15:43:20 cd lupus
+  407  2024-02-04 15:43:23 ll
+  408  2024-02-04 15:43:31 v lupus.cpp
+  409  2024-02-04 16:44:47 git add *
+  410  2024-02-04 16:45:11 git commit -m "lobby and updated roleAssigment"
+  411  2024-02-04 16:46:32 v his
+  412  2024-02-04 16:47:02 history >> his

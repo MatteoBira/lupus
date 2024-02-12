@@ -15,6 +15,9 @@ public:
     string role;
     bool alive = true;
     bool protected;
+    Player(string nameV, string roleV, bool aliveV, bool protectedV) {
+	name = nameV; role = roleV; alive = aliveV; protected = protectedV;
+	}
 };
 
 vector<string> lobby;
@@ -114,29 +117,103 @@ int main() {
     return 0;
 }
 
-void gameLoop() {
+void gameLoop(){
+   string choice;
+   fillLobby(lobby);
+   cout << "Do you want to start a new game? ";
+   cin >> choice;
+   if(choice == "yes" || choice == "yeah"){
+       roleAssigment(Alive);
+	while(
+
+    // TODO: come faccio a mettere all interno della condizione il fatto che almeno uno dei lupi deve essere vivo ed almeno 2(o 1??) buoni devono essere vivi?????
+	    // poi devi fare la parte della notte e del giorno
 
 
+    }
 }
 
 void roleAssigments(unordered_map<string, Player> players) {
     srand(static_cast<unsigned int>(std::time(nullptr)));
-    int lupi,villager,cacciatore,protettore,veggente,becchino,choice;
-    lupi = villager = cacciatore = protettore = veggente = becchino = 0;
+    int lupi,villager,cacciatore,protettore,veggente,becchino,choice,index;
+    lupi = index = villager = cacciatore = protettore = veggente = becchino = 0;
 
-    choice = rand()%6+1;
-    switch (choice) {
-	case 1:
-	    if (lupi > 1){
-		break;
-	    }
+    do {
+	choice = rand()%6+1;
+	switch (choice) {
+	    case 1:
+		if (lupi > 2){
+		    break;
+		}else{
+		    lupi++;
+		    Alive[lobby[index]] = Lupo(lobby[index],"lupo",true,false);
+		    index++;
+		    break;
+		}
+		
+	    case 2:
+		if (villager > 4){
+		    break;
+		}else{
+		    villager++;
+		    Alive[lobby[index]] = Player(lobby[index],"Villager",true,false);
+		    index++;
+		    break;
+		}
+	    case 3:
+		if (cacciatore > 1){
+		    break;
+		}else{
+		    cacciatore++;
+		    Alive[lobby[index]] = Cacciatore(lobby[index],"Cacciatore",true,false);
+		    index++;	    }
+		    break;
+	    case 4:
+		if (veggente > 1){
+		    break;
+		}else{
+		    veggente++;
+		    Alive[lobby[index]] = Veggente(lobby[index],"Veggente",true,false);
+		    index++;
+		    break;
+		}
+	    case 5:
+		if (protettore > 1){
+		    break;
+		}else{
+		    protettore++;
+		    Alive[lobby[index]] = Protettore(lobby[index],"Protettore",true,false);
+		    index++;
+		    break;
+		}
+	    case 6:
+		if (becchino > 1){
+		    break;
+		}else{
+		    becchino++;
+		    Alive[lobby[index]] = Becchino(lobby[index],"Becchino",true,false);
+		    index++;
+		    break;
+		}
 	    
-	
-    	default:
-    
-    		break;
-    }
+	    default:
+		    break;
+	}
+    }while(index<10);
     
 }
 
-// roleAssigment
+void fillLobby(vector<string> lob){
+    string name;
+    for(int i=0;i<10;i++){
+	if(i==0){
+	    cout << "what is your name? ";
+	    cin >> name;
+	}else{
+	    name = "bot" + to_string(i);
+	}
+
+	lobby.push_back(name);
+    }
+
+}
