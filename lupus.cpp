@@ -8,6 +8,7 @@ using namespace std;
 void gameLoop();
 void fillLobby(vector<string> lob);
 void roleAssigments(unordered_map<string, Player> players);
+bool isGameCont(unordered_map<string, Player> alive, int *winner);
 
 class Player {
 public:
@@ -122,14 +123,17 @@ void gameLoop(){
    fillLobby(lobby);
    cout << "Do you want to start a new game? ";
    cin >> choice;
-   if(choice == "yes" || choice == "yeah"){
-       roleAssigment(Alive);
-	while(
+    if(choice == "yes" || choice == "yeah"){
+	roleAssigment(Alive);
+	while(isGameCont(Alive,&winner){
+	    // notte e poi giorno
+	}
 
-    // TODO: come faccio a mettere all interno della condizione il fatto che almeno uno dei lupi deve essere vivo ed almeno 2(o 1??) buoni devono essere vivi?????
-	    // poi devi fare la parte della notte e del giorno
-
-
+	if(winner==0){
+	    printf("I lupi hanno vinto! \n");
+	}else{
+	    printf("I buoni hanno vinto! \n");
+	}
     }
 }
 
@@ -216,4 +220,26 @@ void fillLobby(vector<string> lob){
 	lobby.push_back(name);
     }
 
+}
+
+bool isGameCont(unordered_map<string, Player> alive, int *winner)
+{
+    int lupi=0,buoni=0;
+    for(int i=0;i<10;i++){
+	if(alive[i].role == "lupo"){
+	    lupi++;
+	}
+	else{
+	    buoni++;
+	}
+    }
+    if(lupi==0){
+	*winner = 1;
+	return false;
+    }else if(buoni <= 1){
+	*winner = 0;
+	return false;
+    }else{
+	return true;
+    }
 }
